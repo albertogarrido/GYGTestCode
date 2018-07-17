@@ -20,3 +20,12 @@ Unfortunately I left behind a few things:
 ## Would have been nice
 
 I started, but got cut off because of the lack of time, implementing the Paging library by google. I have never used it before and I wanted to take advantage of this test to use it. I will probably implement it after getting the feedback.
+
+## add review payload
+
+The payload suggested would be basically the same as we get with few exceptions:
+- the id will be generated in the server side
+- language code I guess will be identified in the server as well. I wouldn't let the user to choose it, as well as I dont think is good idea to rely on the user's locale. 
+- author, as the combination of reviewer name and reviewer country also could be generated in the server.
+
+The response, in my opinion, should have the exact same format than the GET operation. Wrapped in an object with metadata about the POST operation (status code, etc) 
