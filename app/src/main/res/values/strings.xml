@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GYGReviews</string>
+    <string name="action_settings">Filter</string>
+    <string name="offline_indicator">You are offline, reviews might be outdated</string>
+    <string name="online_indicator">You are back online, tap here to refresh</string>
+    <string name="hint_name">Your name</string>
+    <string name="hint_title">Title of your review</string>
+    <string name="hint_message">Your review in detail</string>
+    <string name="action_save">Save</string>
+    <string name="add_review_title">Add your review</string>
+    <string name="error_empty_rating">You have to give a rating</string>
+    <string name="error_empty_string">This field cannot be left empty</string>
+    <plurals name="reviews_title">
+        <item quantity="one">%d review in GetYourGuide </item>
+        <item quantity="other">%d reviews in GetYourGuide</item>
+    </plurals>
+
+</resources>
